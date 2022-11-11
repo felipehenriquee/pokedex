@@ -52,11 +52,12 @@
     padding: 1%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
     border-bottom: 1px solid white;
     min-height: 50px;
+    min-height: 80px;
     > .logo img{
       width: 60%;
+      min-width:38px;
     }
     > .search{
       
@@ -68,7 +69,7 @@
     }
     > .search .divSearch{
       border: 1px solid white;
-      width: 250px;
+      width: 290px;
       border-radius: 15px;
       
     }

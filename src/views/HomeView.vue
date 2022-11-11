@@ -198,8 +198,9 @@ export default {
     margin-top: 2%;
     margin-bottom: 2%;
     overflow: auto;
-    height: 80vh;
+    height: 75vh;
     overflow-x: hidden;
+    
   }
   .pokemonCard::-webkit-scrollbar-track {
     background-color: #F4F4F4;

@@ -1,7 +1,7 @@
 <template>
 
 
-    <div  >
+    <div class="main" >
       <router-link :to="{ path: `/pokemon/${id}` }" class="cadaCard centralizado">
         <ImgCard 
         :color1="chooseBackground(types[0].type.name).color1" 
@@ -201,6 +201,9 @@
 </script>
 
 <style lang="scss" scoped>
+.main{
+  margin-left: -5%;
+}
   .cadaCard{
    
     position: relative;

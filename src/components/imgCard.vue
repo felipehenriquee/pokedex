@@ -1,6 +1,4 @@
 <template>
-
-
     <div class="main">
         <div class="divImg centralizado">
             <img v-if="sprites.other.home.front_default" :src="sprites.other.home.front_default" alt="">
@@ -80,6 +78,8 @@
     
     width: 300px;
     height: 300px;
+   
+    position: relative;
     > .divImg{
       position: absolute;
       width: 260px;
